@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Navbar</title>
+    
+        <!-- CSS -->
+        <link rel="stylesheet" href="public/css/bootstrap.min.css">
+    </head>
+
+    <body style="background-color: indigo;">
+        
+        <nav class="navbar navbar-expand-lg fixed-top bg-success navbar-dark">
+            <a href="#" class="navbar-brand">Brawl Stars</a>
+            <button class="navbar-toggler" data-toggler="collapse" data-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- links -->
+            <div id="menu" class="collapse navbar-collapse">
+                <ul class="navbar-nav ml-md-auto">
+                    <li class="nav-item active">
+                        <a href="#" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a href="#" class="nav-link">Brawlers</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a href="#" class="nav-link">Ranking</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a href="#" class="nav-link">Ajuda e Suporte</a>
+                    </li>
+
+                    <form class="form-inline">
+                        <div class="input-group">
+                            <input type="text" placeholder="Insira a tag do noob" name="buscar" class="form-control input-group-prepend">
+                            <input type="submit" class="btn btn-info input-group-append">
+                        </div>
+                    </form>
+                </ul>
+            </div>
+        </nav>
+
+        <footer>
+            <!-- JAVASCRIPT -->
+            <script src="public/js/jquery.js"></script>
+            <script src="public/js/bootstrap.bundle.min.js"></script>
+
+        </footer>
+    </body>
+</html>
